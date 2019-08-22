@@ -1,0 +1,15 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "How to create a simple, RESTful web API with these two popular JavaScript libraries. He shows how to set up the project, including the Express server and testing environment, and create the endpoints needed to add, update, and delete data from a MongoDB database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Retana",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.10"
+  }
+}
