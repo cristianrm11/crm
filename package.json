@@ -4,12 +4,20 @@
   "description": "How to create a simple, RESTful web API with these two popular JavaScript libraries. He shows how to set up the project, including the Express server and testing environment, and create the endpoints needed to add, update, and delete data from a MongoDB database.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node -e -js"
   },
   "author": "Christian Retana",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.6.10"
+    "mongoose": "^5.6.10",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "body-parser": "^1.19.0"
   }
 }
